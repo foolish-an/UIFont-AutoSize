@@ -79,13 +79,13 @@
     
     UIFont *newFout = nil;
     if ([iphoneSize isEqual:@"xx"]) {
-        newFout = [UIFont systemFontOfSize:TXFoutsize - IPHONE6_INCREMENT];
+        newFout = [UIFont systemFontOfSize:ALFout - IPHONE6_INCREMENT];
     }
     else if ([iphoneSize isEqual:@"xxx"]){
-        newFout = [UIFont systemFontOfSize:TXFoutsize -IPHONE6PLUS_INCREMENT];
+        newFout = [UIFont systemFontOfSize:ALFout -IPHONE6PLUS_INCREMENT];
     }
     else{
-        newFout = [UIFont systemFontOfSize:TXFoutsize -IPHONE5_INCREMENT];
+        newFout = [UIFont systemFontOfSize:ALFout -IPHONE5_INCREMENT];
     }
     return newFout;
 }
