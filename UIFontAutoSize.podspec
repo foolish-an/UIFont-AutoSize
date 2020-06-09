@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = 'UIFont-AutoSize'
+    s.name         = 'UIFontAutoSize'
     s.version      = '1.0.0'
     s.summary      = 'OC Adapt to different phone font sizes'
     s.homepage     = 'https://github.com/foolish-an'
